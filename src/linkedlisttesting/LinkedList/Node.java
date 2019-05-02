@@ -8,7 +8,7 @@ package linkedlisttesting.LinkedList;
 /**
  *
  * @author Oscar Bäck
- * Code is mostly taken from: https://www.sanfoundry.com/java-program-implement-singly-linked-list/
+ * 
  * 
  */
 public class Node {

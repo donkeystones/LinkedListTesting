@@ -17,7 +17,6 @@ public class LinkedListTesting {
     public static ListReferencedBased list;
     public static Scanner scan;
     public static Person person;
-    public static boolean running = true;
     /**
      * @param args the command line arguments
      */
@@ -101,7 +100,8 @@ public class LinkedListTesting {
         System.out.println("List Cleared!");
         
         System.out.println("\nAccessing at pos 0");
-        //list.get(0);
+        //Should throw a ListIndexOutOfBoundsException
+        list.get(0);
     }
     
 }
